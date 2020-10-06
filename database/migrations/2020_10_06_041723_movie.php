@@ -18,7 +18,7 @@ class Movie extends Migration
             $table->string('movie_name');
             $table->text('description');
             $table->string('picture');
-            $table->tinyInteger('duration');
+            $table->integer('duration');
             $table->timestamps();
         });
     }
